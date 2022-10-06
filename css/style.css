@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+
+body{
+    font-family: 'Roboto', sans-serif ;
+    margin: 0;
+}
+
+
+.Descuentos{
+    background-color:#1CD1B0 ;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+section{
+    margin-block: 50px;
+    display: flex;
+    justify-content: space-around; 
+}
+
+
+h1{
+    background-color: #00669F;
+    font-size: 40px;
+    padding: 28px;
+    margin: 0;
+}
+
+
+article.Tarjeta{
+   width: 300px;
+   display: inline-block; 
+}
+
+img.img-corazon {
+    position: absolute;
+    top: 15px;
+    left: 21px;
+}
+
+img.img-perfil {
+    position: absolute;
+    top: calc(100% - 59px);
+    left: calc(50% - 60px);
+    border-radius: 50%;
+}
+
+.Tarjeta-Encabezado {
+    position: relative;
+}
+
+.Tarjeta-Body {
+    text-align: center;
+    padding: 18px;
+    background: #F3F3F3;
+}
+
+.Tarjeta-Body h2{
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.Tarjeta-Body p {
+    text-align: left;
+}
+
+
+.Tarjeta-Body a {
+    display: inline-block;
+    padding: 15px 38px;
+    background: #00669F;
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #00669F;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+}
